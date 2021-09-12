@@ -15,16 +15,13 @@ The website frontend is a Vanilla JavaScript application built using HTML, CSS, 
 It was our first time using Azure and creating API functions. There were some issues with Node.js versions being incompatible. However we were able to seek help from our mentor resolve this issue.
 
 ## Accomplishments that we're proud of
-One our member is in high school and the two other members are college students. We are very proud of working together despite differences in age, education level, and development experience. Our team also delivered a minimum viable product with the core features.
+One of our members is in high school and the two other members are college students. We are very proud of working together despite differences in age, education level, and development experience. Our team also delivered a minimum viable product with the core features.
 
 ## What we learned
 We learned that a good idea can become a great idea by focusing in on one purpose for the website so that the user understands exactly how the website can help them. We also learned how to take a popular idea and tailor it to make it unique for our users. 
 
 ## What's next for Espy
 Our next step for Espy is to make it more interactive for the user by allowing them to add any great finds of their own to a town's list which can rise through the ranks by being highly rated by other users. Espy will have many attractions available to browse, but will specifically display the very best.
-
-### Video Demo Link
-https://youtu.be/orUv0IGAUEc
 
 ### Contributors:
 - Sarah: UI Design, Frontend Development
