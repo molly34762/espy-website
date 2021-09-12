@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Espy</title>
+    <link href="register.css" rel="stylesheet" type="text/css" />
+  </head>
+  <header>
+    <img src ="espylogo.png" class="logo">
+    <nav>
+      <a href = "index.html">
+      <img src ="espylogo.png" class="logo">
+      </a>
+    </nav>
+  </header>
+  <body>
+    <div class="aaa">
+    </div>
+    <div class="form">
+      <div class="button">
+        <div id="b"></div>
+        <button type="button" class="log" href="search.html"> Log-In</button>
+        <button type="button" class="log" onclick="register()"> Register</button>
+        </div>
+        <div id = "login" class = "input">
+          <input type="text" class ="if" placeholder="User ID" required>
+          <input type="password" class ="if" placeholder="Enter Password" required>
+          <input type="checkbox" class ="check"><span>Remember Password</span>
+          <button id="loginBtn" class="submit" onclick="location.href='search.html';">
+            Log in
+          </button>
+        </div>
+     <form id="register" class = "input">
+      <input type="text" class ="if" placeholder="User ID" required>
+      <input type="email" class ="if" placeholder="Email Address" required>
+      <input type="text" class ="if" placeholder="Enter Password" required>
+      <input type="checkbox" class ="check"><span>I agree to these terms and conditions</span>
+      <button type="submit" class="submit" href="search.html">Register</button>
+    </form>
+    </div>
+
+    <script>
+      var x = document.getElementbyId("login");
+      var y = document.getElementbyId("register");
+      var z = document.getElementbyId("b");
+
+      function register(){
+        x.style.left = "-400px";
+        y.style.left = "50px";
+        z.style.left = "110px";      
+        }
+
+         function login(){
+        x.style.left = "-50px";
+        y.style.left = "450px";
+        z.style.left = "0";      
+        }
+
+    </script>
+  </body>
+</html>

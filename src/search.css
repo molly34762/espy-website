@@ -1,0 +1,59 @@
+/*THIS IS FOR THE SEARCH RESULTS PAGE */
+
+body {
+  background-color: rgba(201, 234, 228, 0.83);
+  margin: 0;
+  padding: 0;
+}
+
+#mainBody {
+  padding: 1rem;
+  margin: 2rem 10rem 0rem 10rem;
+  background: white;
+  border-radius: 1rem;
+}
+
+.results {
+  background: white;
+  margin: 0rem 2rem 2rem 2rem;
+}
+
+h1 {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+padding: 1rem;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ECFBF7;
+}
+
+.logo{
+position: absolute;
+height: 50px;
+left: 35px;
+top: 9px;
+size: 10px;
+}
+
+span {
+  color: white; 
+}
+
+p {
+  margin:0;
+}
+
+.card-img-top {
+    max-height: 200px;
+    min-height: 150px;
+    object-fit: cover;
+}
+
+#headerBox {
+  text-align: center;
+}

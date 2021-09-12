@@ -1,0 +1,67 @@
+[
+    {
+        "townName": "Boston",
+        "thingsToDo": [
+            {
+                "attractions": [
+                    {
+                        "attractionName": "Boston Common",
+                        "attractionGeneralFee": "Free",
+                        "attractionActivities": [
+                        {
+                            "activityName": "Walk and Explore",
+                            "activityCost": 0
+                        },
+                        {
+                            "activityName": "Ride Swan Boats",
+                            "activityCost": 11
+                        },
+                        {
+                            "activityName": "Ice skate on the Frog Pond",
+                            "activityCost": 18
+                        }
+                        ]
+                    }
+                ]    
+            },
+            {
+                "restaurantName": "Asmara",
+                "restaurantType": "Ethiopian",
+                "restaurantCostLevel": "Medium"
+            }
+
+        ]  
+    },
+    {
+        "townName": "New York City",
+        "thingsToDo": [
+            {
+                "attractions": [
+                {
+                    "attractionName": "Central Park",
+                    "attractionGeneralFee": "Free",
+                    "attractionActivities": [
+                        {
+                            "activityName": "Walk and Explore",
+                            "activityCost": 0
+                        },
+                        {
+                            "activityName": "Row a boat under Row Bridge",
+                            "activityCost": 20
+                        },
+                        {
+                            "activityName": "Ice skating",
+                            "activityCost": 29
+                        }
+                    ]
+                }
+                ]   
+            },
+            {
+                "restaurantName": "Baohaus",
+                "restaurantType": "Chinese",
+                "restaurantCostLevel": "Medium"
+            }
+        ]
+    }
+]
